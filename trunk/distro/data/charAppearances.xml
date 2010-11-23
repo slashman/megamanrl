@@ -1,0 +1,93 @@
+<charAppearances>
+	<charAppearance id ="METAL_BLOCK" char = "#" color = "GRAY"/>
+	<charAppearance id ="METAL_BGROUND" char = "." color = "BLUE"/>
+	<charAppearance id ="METAL_STAIR" char = "=" color = "WHITE"/>
+	<charAppearance id ="METAL_MOUND" char = "^" color = "GRAY"/>
+	
+	<charAppearance id ="CYANSKY_BGROUND" char = ":" color = "CYAN"/>
+	<charAppearance id ="CONCRETEFLOOR" char = "#" color = "BLUE"/>
+	<charAppearance id ="CONCRETETOWER" char = "#" color = "WHITE"/>
+	<charAppearance id ="CONCRETETOWER2" char = "%" color = "DARK_BLUE"/>
+	<charAppearance id ="CONCRETESTAIRS" char = "=" color = "WHITE"/>
+	<charAppearance id ="CONESPIKE" char = "^" color = "WHITE"/>
+	
+	<charAppearance id ="PIPESWALL" char = ">" color = "WHITE"/>
+	<charAppearance id ="WILYLOGO" char = "W" color = "WHITE"/>
+	<charAppearance id ="BOSSDOOR" char = "]" color = "WHITE"/>
+	<charAppearance id ="GREENBRICK_BGROUND" char = "," color = "GREEN"/>
+	<charAppearance id ="BLACKNESS" char = " " color = "BLACK"/>
+	
+	<charAppearance id ="GRAY_BGROUND" char = ":" color = "GRAY"/>
+	<charAppearance id ="GREEN_BRICK" char = "#" color = "GREEN"/>
+	<charAppearance id ="BUNKER" char = "&amp;" color = "GRAY"/>
+	<charAppearance id ="GRAY_METAL_BGROUND" char = "-" color = "GRAY"/>
+	
+	
+	<charAppearance id ="KAMADOMA_RED" char = "k" color = "RED"/>
+	<charAppearance id ="BOMBOMBOMB_BLUE" char = "0" color = "BLUE"/>
+	<charAppearance id ="BOMBOMBOMBBOMB" char = "*" color = "BLUE"/>
+	<charAppearance id ="SUZYBOT" char = "X" color = "RED"/>
+	<charAppearance id ="BLASTER" char = "E" color = "BROWN"/>
+	<charAppearance id ="ENEMYSHOT" char = "o" color = "WHITE"/>
+	<charAppearance id ="PLASMASHOT" char = "o" color = "WHITE"/>
+	<charAppearance id ="BOMBMANBOMB" char = "ó" color = "RED"/>
+	<charAppearance id ="GABYOALL" char = "v" color = "RED"/>
+	<charAppearance id ="KILLERBOMB" char = "&lt;" color = "GRAY"/>
+	<charAppearance id ="MAMBU" char = "O" color = "BLUE"/>
+	
+	<charAppearance id ="ROLLING_CUTTER" char = ">" color = "WHITE"/>
+	
+	<charAppearance id ="MEGAMAN" char = "@" color = "BLUE"/>
+	<charAppearance id ="BOMBMAN" char = "Ó" color = "BROWN"/>
+	<charAppearance id ="CUTMAN" char = "V" color = "WHITE"/>
+	<charAppearance id ="ELECMAN" char = "W" color = "YELLOW"/>
+	
+	<charAppearance id ="PLASMA_BUSTER_C" char = "$" color = "CYAN"/>
+	<charAppearance id ="LASER_BUSTER_C" char = "%" color = "CYAN"/>
+	<charAppearance id ="SLASH_BUSTER_C" char = "/" color = "CYAN"/>
+	<charAppearance id ="PLASMA_BUSTER_M" char = "$" color = "MAGENTA"/>
+	<charAppearance id ="LASER_BUSTER_M" char = "%" color = "MAGENTA"/>
+	<charAppearance id ="SLASH_BUSTER_M" char = "/" color = "MAGENTA"/>
+	<charAppearance id ="PLASMA_BUSTER_Y" char = "$" color = "YELLOW"/>
+	<charAppearance id ="LASER_BUSTER_Y" char = "%" color = "YELLOW"/>
+	<charAppearance id ="SLASH_BUSTER_Y" char = "/" color = "YELLOW"/>
+	<charAppearance id ="PLASMA_BUSTER_K" char = "$" color = "GRAY"/>
+	<charAppearance id ="LASER_BUSTER_K" char = "%" color = "GRAY"/>
+	<charAppearance id ="SLASH_BUSTER_K" char = "/" color = "GRAY"/>
+	<charAppearance id ="CUTTER" char = ">" color = "RED"/>
+      
+	<charAppearance id ="BUSTER" char = "%" color = "BLUE"/>
+
+	<charAppearance id ="ENERGYTANK" char = "E" color = "BLUE"/>
+	<charAppearance id ="ENERGYPELLET" char = "o" color = "BLUE"/>
+	<charAppearance id ="BIGENERGYPELLET" char = "0" color = "BLUE"/>
+	<charAppearance id ="WEAPONENERGY" char = "o" color = "PURPLE"/>
+	<charAppearance id ="HYPERBOMB" char = "B" color = "RED"/>
+	<charAppearance id ="HYPERBOMBBOMB" char = "ó" color = "RED"/>
+	
+	<charAppearance id ="BLACK_BGROUND" char = "." color = "BLACK"/>
+	<charAppearance id ="ORANGE_BGROUND" char = ":" color = "BROWN"/>
+	<charAppearance id ="METAL_BRICK" char = "#" color = "GRAY"/>
+	<charAppearance id ="LAVA" char = "~" color = "RED"/>
+	
+	
+	<charAppearance id ="ELECGREEN_BGROUND" char = ":" color = "GREEN"/>
+	<charAppearance id ="DARKBLUE_BGROUND" char = ":" color = "DARK_BLUE"/>
+	<charAppearance id ="HWIRE_BGROUND" char = "-" color = "YELLOW"/>
+	<charAppearance id ="VWIRE_BGROUND" char = "|" color = "YELLOW"/>
+	<charAppearance id ="WIREBOX_BGROUND" char = "*" color = "YELLOW"/>
+	<charAppearance id ="YELLOW_BRICK" char = "#" color = "BROWN"/>
+	<charAppearance id ="YELLOW_STAIRS" char = "=" color = "BROWN"/>
+	
+	<charAppearance id ="BALL1" char = "/" color = "YELLOW"/>
+	<charAppearance id ="BALL2" char = "\" color = "YELLOW"/>
+	<charAppearance id ="BALL3" char = "-" color = "YELLOW"/>
+	<charAppearance id ="BALL4" char = "|" color = "YELLOW"/>
+			
+	<charAppearance char = "." id = "LAB_BGROUND" color = "MAGENTA"/>
+	<charAppearance char = "#" id = "LAB_FLOOR" color = "PURPLE"/>
+	<charAppearance char = ":" id = "LAB_WINDOW" color = "CYAN"/>
+	<charAppearance char = "#" id = "LAB_WINDOWFRAME" color = "BROWN"/>
+	<charAppearance char = "%" id = "LAB_COMPUTER" color = "GRAY"/>
+	<charAppearance char = "=" id = "LAB_COMPUTERSCREEN" color = "BLUE"/>
+</charAppearances>

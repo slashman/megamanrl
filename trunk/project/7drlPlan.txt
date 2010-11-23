@@ -1,0 +1,29 @@
+MegamanRL 7DRL Plan
+
+Create project from CvRL 1.27 ITW Project
+Side Scrolling movement
+ Tiles model
+ Walk action
+ Fall down actor
+Level generation (Segments)
+ Caves
+ Vertical Towers
+ Falling blocks substraction
+ Falling blocks addition
+ Pits
+ Crossability assurance
+ Single screen blocks
+Level generation (Levels)
+ Prize/Barrier Meta generator
+ Segments renderer
+Enemies
+ Basic AI
+ Bosses
+Actions
+ Energy Stamina System
+ Fire
+ Charge
+ Slide
+ Jump
+Capsules
+Items

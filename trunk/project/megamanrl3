@@ -1,0 +1,42 @@
+Buster Powerups located as prizes without barriers, with a fixed ammount of usages
+There may be fake, disfunctional capsules.
+Items, droped by enemies and located randomly over the levels
+Capsules and Upgrades, located as prizes with strong enemies guarding them, permanently upgrades.
+
+Capsules
+* Slide: Allows sliding on the floor
+* Mega Buster: Access megabuster to level 3
+* Boots: Allow dash in the floor
+* Air Dash: Allow dash on midair
+* Helmet: Protects from attacks from upside, allows breaking things with dash
+* Armor: Increases defense
+* X-Buster: Charges up special weapons, allows charge of megabuster to 4th level
+* Hadouken: Shoot a fireball, must be standing on ground and have full life bar.
+* Dragon Punch: Upward attack
+* X-Armor: Increases defense
+
+Upgrades
+* 1-UP
+* Subtank: Stores spare energy, can be used anytime. Full Subtanks recover full energy, half-filled tanks only recover a bit
+
+Items
+* Energy pellet: Recovers 2 units
+* Energy Capsule: 
+* Weapon energy pellet: Recovers a weapon's energy
+* Weapon energy capsule: 
+* Heart Tank: Add 2 units to energy meter
+
+Buster Powerups
+Types
+*Plasma: Simple shots
+*Laser: Quick weaker shoots
+*Slash: Strong, short range
+Strength
+*Cyan
+*Magenta
+*Yellow
+*Alpha
+
+Robots
+* Ride Armor: Walker Robot
+

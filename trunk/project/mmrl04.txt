@@ -1,0 +1,214 @@
+Name: BombMan
+Series: Classic
+Class: Robot Master
+Serial Number: DLN006
+AKA: BomberMan (J)
+Appears in: MegaMan, MegaMan: Powered Up, MegaMan: The Wily Wars, MegaMan's Soccer, Super Adventure Rockman
+Minor Appearances in: MegaMan 3, MegaMan & Bass
+
+BombMan was built by Dr. Light as a ground disruption and building demolishment robot, but was stolen by Dr. Wily and reprogrammed to help him dominate the world. He used to work with GutsMan on various projects. It is a mystery to many exactly how BombMan can eternally replenish his supply of Hyper Bombs. These bombs can destroy all types of bedrock. BombMan is good at being a showoff in whatever circumstance, but he is also careless with more important things. On his time off he greatly enjoys bowling, but he has also participated in soccer matches (MegaMan's Soccer). Since he is highly explosive, he has learned to stay clear of lighters and matches whenever possible. BombMan has assisted MegaMan in important missions (Superadventure Rockman).
+
+MegaMan Information
+
+BombMan will jump periodically, as well as when MegaMan is close to him. When MegaMan is not close by, he will throw a Hyper Bomb that explodes on contact with the ground toward MegaMan (the explosion damaging MegaMan if he is within four radii of the original bomb). MegaMan adapts the Hyper Bomb after defeating him.
+Main Statistics	Damage Data	Locations
+Hyper Bomb: 4
+Crash Damage: 4
+HP: 28
+	Mega Buster: 2
+Fire Storm: 4
+Hyper Bomb: 1
+Ice Slasher: 0
+Rolling Cutter: 2
+Super Arm: N/A
+Thunder Beam: 2
+	BombMan's Stage
+Wily Stage 4
+
+
+----------
+Bomb Man
+Strategy 1, throw bomb
+if jumping
+  if distance > 4
+     throw bomb at megaman
+  else
+     move away
+else
+  if distance > 5
+     throw bomb at megaman
+  else
+     if chance 50
+        move away
+     else
+        jump
+
+Strategy 2, jump over
+if jumping
+  if distance = 0
+    jump away
+  else
+    move closer
+else
+  if chance (70)
+    jump closer
+  else
+    move closer
+
+General
+if damaged and chance (50)
+  change strategy
+  
+-----
+
+
+Name: CutMan
+Series: Classic
+Class: Robot Master
+Serial Number: DLN003
+Appears in: MegaMan, MegaMan: Powered Up, MegaMan: Dr. Wily's Revenge, MegaMan: The Wily Wars, MegaMan: The Power Battle, MegaMan 8 (Saturn), MegaMan 2: The Power Fighters, MegaMan's Soccer, Rockman: Battle & Fighters, Super Adventure Rockman
+Minor Appearances in: MegaMan 3, MegaMan 7, MegaMan & Bass, Rockboard
+
+CutMan was built by Dr. Light as a timber-felling robot. He is able to cut down trees with ease using the large pair of scissors placed on his head, made from ceramical titanium. He was built with a light and nimble body to work in rainy and windy conditions. He used to behave as a younger brother of MegaMan, but was remodeled to be a powerful battling robot by Dr. Wily in his first battle against humanity. CutMan, when he in not under Wily's control, often enjoys spending his time cutting things out with the scissors on his head. CutMan's biggest personality flaw is that he does not usually listen when others speak, which brings about his sometimes arrogant attitude. CutMan's least favorite game is Janken (Rock Paper Scissors), due to the nature of the game, having rock beat scissors. CutMan has, on occasion, assisted MegaMan in important battles and missions (Superadventure Rockman).
+
+MegaMan Information
+
+CutMan will run and jump, throwing the Rolling Cutter attached to his head at MegaMan, which will return like a boomerang. MegaMan adapts the Rolling Cutter after defeating him.
+
+
+Cut Man (Pending)
+
+Strategy 1, throw cutter
+if jumping
+  if distance < 3
+     throw bomb at megaman
+  else
+     move away
+else
+  if distance > 5
+     throw bomb at megaman
+  else
+     if chance 50
+        move away
+     else
+        jump
+
+Strategy 2, jump over
+if jumping
+  if distance = 0
+    jump away
+  else
+    move closer
+else
+  if chance (70)
+    jump closer
+  else
+    move closer
+
+General
+if damaged and chance (50)
+  change strategy
+
+
+-----
+(Bombman, CutMan, IceMan) Adhering Suzy will go from side to side or up and down, and adhere to whatever floor, ceiling or wall it comes in contact with. It will give 300 points when destroyed.
+if moving
+ if next tile is wall
+  stick to wall
+ else
+  move
+else
+ if stick
+  nothing
+ else
+  if playerNear
+   move horizontally or vertically to player
+   is Moving now
+  else
+   nothing
+---
+(Bombman, CutMan) Blaster: When MegaMan is near, at regular intervals it will open up and shoot in 4 diagonal directions, and then shield itself. It gives 200 points when destroyed.
+if open
+  if player on sight
+    shoot in four directions
+    if chance 80
+      close
+  else
+    close
+else
+  if player on sight
+    if count = 4
+      if chance 80
+        open
+        count is 0
+    else
+      count++
+---
+(Bombman, CutMan, IceMan, Elecman ) Gabyoall will slowly slide back and forth along the floor, but attack MegaMan when he is on the same level by sliding very fast, crashing into him. Its armour is also resistant to the Mega Buster, as it only stuns the robot for several seconds. It gives 300 points when destroyed.
+if player on line
+  increaseHSpeed
+else
+  normalHSpeed
+moveH
+----
+(Bombman, Fireman) Killer Bomb: It travels toward MegaMan in a sine-wave pattern. When it is killed, it will explode, harming MegaMan if he is near. After destruction it will give 800 points.
+if fired
+ go On
+else
+  if player on sight
+    fire in player direction
+  
+----
+º(Bombman, Cutman) Mambu: It moves through the air in its shell, which is impervious to the Mega Buster. It will periodically stop and fire energy shots in the 8 vertical, horizontal and diagonal directions. This is the only moment that it is vulnerable. It gives 800 points when destroyed.
+if shelled
+  move randomly
+  count++
+  if count is 8
+    if chance 80
+      open
+else
+  if chance 50
+    shoot
+  if chance 70
+    shell
+----
+(Bombman, Cutman, Fireman) Screw Driver: Screw Drivers are spinning cannons that upon MegaMan's approach will rise and shoot two sets of five energy shots in both hoizontal and upward-diagonal directions, and then lower (or in reverse directions if ceiling-mounted). It gives 500 points when destroyed.
+
+(Bombman) Sniper Joe: Sniper Joe can jump around to get into a good position to attack MegaMan. It will stand behind its shield, and either jump or fire three energy shots at MegaMan. It is vulnerable only when jumping or firing. If destroyed, it will give 5000 points.
+
+
+
+
+(Gutsman, CutMan, IceMan, Elecman )Big Eye: It jumps at two different heights, the higher one high enough for MegaMan to run under. In fact, if MegaMan jumps just before Big Eye does, Big Eye will usually make the higher jump. It gives 10000 points when destroyed.
+
+(CutMan, GutsMan) Bumbi Heli: It will dive at MegaMan, slamming into him, causing damage. It gives 500 points when destroyed.
+
+(FireMan) Changekey: It will rise in groups of three out of an abyss or molten metal, high into the air, and then fall toward MegaMan. If destroyed, it gives 200 points.
+
+(IceMan) Crazy Razy:  It has two parts: the upper part, which after separating from the lower part will throw energy shots at MegaMan and crash into him while hovering about; and the lower part which will continue walking a short distance after separation, and then self-destruct. The upper part will remain if the lower part is destroyed first, and if MegaMan does not attack it, it will separate on its own. Destroying it requires destroying the upper half, which will give 500 points.
+
+(IceMan) Foot Holder: 	These move around randomly in diagonal directions. They also will periodically shoot energy shots in straight trajectories from their sides. They are safe to ride on top of; however, their undersides will cause crash damage and they cannot be destroye
+
+(Gutsman) Metall: It is a very simple enemy, in that it does not move from its set position, but it will lift its impenetrable casing to shoot a spread of 3 energy shots at MegaMan. If destroyed, it gives 500 points.
+
+(Gutsman) Neo metall: When MegaMan approaches, it fires a spread of three shots, and then instantaneously rushes forward at high speed. Another form of this robot will be released from the Guts Tank, where it jumps/bounces toward MegaMan, but does not shoot.
+
+(IceMan) Pepe: It is similar to the Killer Bomb, in that it will fly toward MegaMan in a sine-wave pattern, but after it is destroyed, it will not explode. If destroyed, it gives 500 points
+
+(Gutsman) Pickelman: It will throw ten pick axes at MegaMan, and then hide behind its shield. When destroyed, it will give 1500 points.
+
+(Cutman) Super Cutter: The Super Cutter comes out of a large cubicle; moving upwards and then downwards, targeted at MegaMan. It closes and opens its sheers while in the air. It gives 1500 points when destroyed.
+
+(Elecman) Watcher: Watchers attack in groups of six, three from the top and three from the bottom of a room. When one reaches the same altitude as MegaMan, it will lift its eye stalks out of the main section, and fire electric bolts at MegaMan. If destroyed, it will give 800 points
+
+ElecMan will run and jump quickly, releasing his Thunder Beam on MegaMan (in only one direction). The Thunder Beam converts electrical energy into a beam and discharges this with high output. MegaMan adapts the Thunder Beam after defeating him
+
+FireMan will run around the room, firing wide fire blasts at MegaMan, which leave a flame under where MegaMan was standing. MegaMan adapts the Fire Storm after defeating him.
+
+When attacking MegaMan, Gutsman will jump and smash the ground, creating a small quake that will stun MegaMan, which will also cause a block to fall from the ceiling. He will catch this block and use his Super Arm to throw it at MegaMan. MegaMan adapts the Super Arm after defeating him.
+
+IceMan will run and jump, firing slow moving Ice Slashers at MegaMan at three different heights. Although initially slow-moving, they will speed up once IceMan's energy depletes passed a certain point. MegaMan adapts the Ice Slasher after defeating him.
+
+Phase 1: Using the energy cannon at its front, it hovers back and forth firing energy shots that arc up in a parabola, and fall toward MegaMan.
+
+Phase 2: When MegaMan destroys the protective armouring of the Wily Machine, the front will fall away, revealing Dr. Wily inside controlling the machine and a new cannon at the front. Emergency equipment will boost the machine's attack strength, and the cannon will fire spiralling energy balls at MegaMan.

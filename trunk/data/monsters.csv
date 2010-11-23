@@ -1,0 +1,17 @@
+ID;Appearance;Description;LongDescription;WavOnHit;BloodContent;DestroyOnImpact;Ethereal;damageEnemy;Flying;Score;SightRange;Hits;Attack;WalkCost;AttackCost;EvadeChance;EvadeMessage;AutoRespawn
+KAMADOMA_RED;KAMADOMA_RED;Red Kamadoma;"Kamadoma is an initial model of a cricket-type robot created for protecting crops. However, it often damages farmland with its jumping, and so it is seldom used now. The name comes from a Japanese cricket, the ""kamadouma"".";;0;false;false;false;false;300;10;1;2;80;50;0;;0
+BOMBMAN;BOMBMAN;BombMan;BombMan was built by Dr. Light as a ground disruption and building demolishment robot, but was stolen by Dr. Wily and reprogrammed to help him dominate the world.;;0;false;false;false;false;80000;10;30;4;50;50;0;;0
+BOMBOMBOMB_BLUE;BOMBOMBOMB_BLUE;BomBomBomb;Bombombomb is a football-shaped robot originally designed by Dr. Light for demolishing buildings.;;0;false;false;false;true;1;10;20;1;50;50;0;;0
+BOMBOMBOMBBOMB;BOMBOMBOMBBOMB;BomBomBombBomb;Bombombomb is a football-shaped robot originally designed by Dr. Light for demolishing buildings.;;0;true;false;false;false;1;10;20;1;50;50;0;;0
+SUZYBOT;SUZYBOT;SuzyBot;This robot was originally a barricade robot, due to its durable armour, and is thus very useful in large numbers.;;0;false;false;false;true;300;10;5;4;30;50;0;;0
+BLASTER;BLASTER;Blaster;Blaster was originally a wall-mounted security robot for complexes such as bases.;;0;false;false;false;true;200;10;1;2;50;50;0;;0
+ENEMYSHOT;ENEMYSHOT;Plasma blast;Plasma Blast;;0;true;false;false;true;1;10;20;1;12;12;0;;0
+GABYOALL;GABYOALL;Gabyoall;The Gabyoall, first of its kind in the Gabyoall series, was originally a security robot, which would detect intruders sneaking into a base and prevent them from getting deep inside;;0;false;false;false;false;300;10;1;1;70;50;0;;0
+KILLERBOMB;KILLERBOMB;Killer Bomb;Killer Bomb was originally an industrial robot used to destroy far away objects.;;0;true;true;false;true;800;10;1;3;25;50;0;;0
+MAMBU;MAMBU;Mambu;Mambu was an anti-aircraft robot, as well as a security robot used to counter enemies trying to sneak into bases.;;0;false;false;false;true;800;10;1;2;75;50;0;;0
+PLASMASHOT;PLASMASHOT;Plasma blast;Plasma Blast;;0;true;false;true;true;0;10;20;0;12;12;0;;0
+BOMBMANBOMB;BOMBMANBOMB;Bomb;Explosive Bomb;;0;false;false;false;false;1;10;20;4;25;25;0;;0
+HYPERBOMB;HYPERBOMBBOMB;Bomb;Explosive Bomb;;0;false;false;true;false;1;10;20;4;25;25;0;;0
+CUTMAN;CUTMAN;CutMan;CutMan was built by Dr. Light as a timber-felling robot. He is able to cut down trees with ease using the large pair of scissors placed on his head, made from ceramical titanium. He was built with a light and nimble body to work in rainy and windy conditions.;;0;false;false;false;false;80000;10;30;4;50;50;0;;0
+ROLLING_CUTTER;ROLLING_CUTTER;Rolling Cutter;Ceramic cutter;;0;true;false;false;true;3;10;20;1;12;12;0;;0
+ELECMAN;ELECMAN;ElecMan;CutMan was built by Dr. Light as a timber-felling robot. He is able to cut down trees with ease using the large pair of scissors placed on his head, made from ceramical titanium. He was built with a light and nimble body to work in rainy and windy conditions.;;0;false;false;false;false;80000;10;30;4;50;50;0;;0

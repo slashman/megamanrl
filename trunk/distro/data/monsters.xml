@@ -1,0 +1,27 @@
+<monsters>
+	<monster id = "KAMADOMA_RED" selectorClass = "crl.ai.monster.basic.KamadomaAI"/>
+	<monster id = "BOMBOMBOMB_BLUE" selectorClass = "crl.ai.monster.basic.BomBomBombAI"/>
+	<monster id = "SUZYBOT" selectorClass = "crl.ai.monster.basic.SuzyBotAI"/>
+	<monster id = "BLASTER" selectorClass = "crl.ai.monster.basic.BlasterAI"/>
+	<monster id = "BOMBMANBOMB" selectorClass = "crl.ai.monster.basic.TimedBombAI"/>
+	<monster id = "HYPERBOMB" selectorClass = "crl.ai.monster.basic.TimedBombAI"/>
+	<monster id = "GABYOALL" selectorClass = "crl.ai.monster.basic.GabyoallAI"/>
+	<monster id = "KILLERBOMB" selectorClass = "crl.ai.monster.basic.KillerBombAI"/>
+	<monster id = "MAMBU" selectorClass = "crl.ai.monster.basic.MambuAI"/>
+	<monster id = "BOMBMAN" selectorClass = "crl.ai.monster.basic.BombManAI"/>
+	<monster id = "CUTMAN" selectorClass = "crl.ai.monster.basic.CutManAI"/>
+	<monster id = "ELECMAN" selectorClass = "crl.ai.monster.basic.CutManAI"/>
+	<monster id = "BOMBOMBOMBBOMB">
+		<selector><sel_null/></selector>
+	</monster>
+	<monster id = "ENEMYSHOT">
+		<selector><sel_null/></selector>
+	</monster>
+	<monster id = "PLASMASHOT">
+		<selector><sel_null/></selector>
+	</monster>
+	<monster id = "ROLLING_CUTTER">
+		<selector><sel_null/></selector>
+	</monster>
+</monsters>
+
