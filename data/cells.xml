@@ -1,0 +1,46 @@
+<mapcells>
+	<mapcell id = "METAL_BLOCK" appearance = "METAL_BLOCK" shortDescription = "metal block" description = "Metal Block"  solid = "true" opaque = "true"/> 
+	<mapcell id = "METAL_BGROUND" appearance = "METAL_BGROUND"/>
+	<mapcell id = "METAL_STAIR" appearance = "METAL_STAIR" shortDescription = "metal stairs" description = "Metal Stairs" stair = "true"/>
+	<mapcell id = "METAL_MOUND" appearance = "METAL_MOUND" shortDescription = "metal block" description = "Metal Block" solid = "true" round = "true"/>
+	<mapcell id = "CYANSKY_BGROUND" appearance = "CYANSKY_BGROUND"/>
+	<mapcell id = "CONCRETEFLOOR" appearance = "CONCRETEFLOOR" shortDescription = "concrete floor" description = "Concrete floor" solid = "true"/>
+	<mapcell id = "CONCRETETOWER" appearance = "CONCRETETOWER" shortDescription = "concrete tower" description = "Concrete tower" solid = "true"/>
+	<mapcell id = "CONCRETETOWER2" appearance = "CONCRETETOWER2" shortDescription = "concrete tower" description = "Concrete tower" solid = "true"/>
+	<mapcell id = "CONCRETESTAIRS" appearance = "CONCRETESTAIRS" shortDescription = "concrete stairs" description = "Concrete stairs" stair = "true"/>
+	<mapcell id = "CONESPIKE" appearance = "CONESPIKE" shortDescription = "cone spike" description = "Cone Spike" solid = "true" spike = "true"/>
+	<mapcell id = "PIPESWALL" appearance = "PIPESWALL" shortDescription = "pipes wall" description = "Pipes Wall" solid = "true"/>
+	<mapcell id = "WILYLOGO" appearance = "WILYLOGO" shortDescription = "Dr. W. Logo" description = "Dr. W. Logo" solid = "true"/>
+	<mapcell id = "BOSSDOOR" appearance = "BOSSDOOR" shortDescription = "Boss door" description = "Boss Door" opaque = "true"/>
+	<mapcell id = "GREENBRICK_BGROUND" appearance = "GREENBRICK_BGROUND"/>
+	<mapcell id = "BLACKNESS" appearance = "BLACKNESS" opaque="true" solid="true"/>
+	<mapcell id = "GRAY_BGROUND" appearance = "GRAY_BGROUND"/>
+	<mapcell id = "GREEN_BRICK" appearance = "GREEN_BRICK" shortDescription = "concrete floor" description = "Concrete floor" solid = "true"/>
+	<mapcell id = "BUNKER" appearance = "BUNKER"/>
+	<mapcell id = "GRAY_METAL_BGROUND" appearance = "GRAY_METAL_BGROUND"/>
+	<mapcell id = "BLACK_BGROUND" appearance = "BLACK_BGROUND"/>
+	<mapcell id = "ORANGE_BGROUND" appearance = "ORANGE_BGROUND"/>
+	<mapcell id = "METAL_BRICK" appearance = "METAL_BRICK" shortDescription = "metal floor" description = "Metal Floor"  solid = "true"/>		
+	<mapcell id = "LAVA" appearance = "LAVA"/>
+	
+	<mapcell id = "ELECGREEN_BGROUND" appearance = "ELECGREEN_BGROUND"/>
+	<mapcell id = "DARKBLUE_BGROUND" appearance = "DARKBLUE_BGROUND"/>
+	<mapcell id = "HWIRE_BGROUND" appearance = "HWIRE_BGROUND"/>
+	<mapcell id = "VWIRE_BGROUND" appearance = "VWIRE_BGROUND"/>
+	<mapcell id = "WIREBOX_BGROUND" appearance = "WIREBOX_BGROUND"/>
+	<mapcell id = "BALL1" appearance = "BALL1"/>
+	<mapcell id = "BALL2" appearance = "BALL2"/>
+	<mapcell id = "BALL3" appearance = "BALL3"/>
+	<mapcell id = "BALL4" appearance = "BALL4"/>
+			
+	<mapcell id = "LAB_BGROUND" appearance = "LAB_BGROUND"/>
+	<mapcell id = "LAB_FLOOR" appearance = "LAB_FLOOR" solid = "true"/>
+	<mapcell id = "LAB_WINDOW" appearance = "LAB_WINDOW"/>
+	<mapcell id = "LAB_WINDOWFRAME" appearance = "LAB_WINDOWFRAME"/>
+	<mapcell id = "LAB_COMPUTER" appearance = "LAB_COMPUTER"/>
+	<mapcell id = "LAB_COMPUTERSCREEN" appearance = "LAB_COMPUTERSCREEN"/>
+	
+	<mapcell id = "YELLOW_BRICK" appearance = "YELLOW_BRICK" shortDescription = "concrete floor" description = "Concrete floor" solid = "true"/>
+	<mapcell id = "YELLOW_STAIRS" appearance = "YELLOW_STAIRS" shortDescription = "metal stairs" description = "Metal stairs" stair = "true"/>
+	
+</mapcells>
